@@ -21,7 +21,7 @@ Repo for learning and research findings
     - FastAPI: 
       - Links:
         - [FastAPI Testing](https://fastapi.tiangolo.com/tutorial/testing/)
-      - import TestClient from the `requests` package.
+      - import TestClient from the `fastapi` package - `from fastapi.testclient import TestClient`.
       - standard pytest naming conventions for functions.
       - Testing functions are `def` not `async def`.
       - `client = TestClient(FastAPI())`, `response = client.get('/')`, `assert response.status_code == 200`
